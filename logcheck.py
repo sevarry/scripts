@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+#created by Ted Eckerman, 2018
+
 from collections import Counter
 
 log = 'log.txt'
