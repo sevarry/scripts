@@ -13,8 +13,8 @@ with open(log) as f:
             name = line.partition(' ')[0]
             fails.append(name)
 
-cnt = Counter(fails)
-inc = [k for k, v in cnt.iteritems() if v >= 3]
+ct = Counter(fails)
+inc = [k for k, v in ct.iteritems() if v >= 3]
 
 print
 print 'The following users have failed login 3 or more times:'
