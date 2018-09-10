@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#created by Ted Eckerman, 2018
+#created by Ted Eckerman
 
 from collections import Counter
 
